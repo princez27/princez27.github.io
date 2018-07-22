@@ -1,5 +1,5 @@
-# Mini-Inventory-and-Sales-Management-System
-An Inventory and Sales Management System written in PHP (codeIgniter) with support for MySQL and Sqlite3 databases
+# Shopping-mall-inventory-management-system
+An Inventory Management System written in PHP (codeIgniter) with support for MySQL and Sqlite3 databases integrated with java along with JSON for front end system.
 
 
 # Features
@@ -14,16 +14,7 @@ An Inventory and Sales Management System written in PHP (codeIgniter) with suppo
 - Discount
 
 # Getting Started
-- _mod_rewrite_ must be enabled
-- PHP >= 5.4 is recommended
-- Browser with support for most ES6 features is recommended
-- If you edit the folder name, you will need to do the following:
-  - Open __.htaccess in the root folder__ and change the line with __"mini-inventory-and-sales-management-system"__ to your new folder name.
-  - Open __"application/config/config.php"__ and do the same.
-  - Open __"public/js/main.js"__ and do the same.
-
-# Demo
-View demo here: https://1410inc.xyz/mini-inventory-and-sales-management-system/
+Visit https://1410inc.xyz/mini-inventory-and-sales-management-system
 
 To log in:
 

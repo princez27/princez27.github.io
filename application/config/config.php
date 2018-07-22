@@ -35,9 +35,9 @@ else if(stristr($host, "localhost") !== FALSE || (stristr($host, "192.168.") !==
 }
 
 else{
-    $allowed = ['www.1410inc.xyz', '1410inc.xyz'];//input all allowed urls here e.g. amirsanni.com, www.practa.ng, smartagapp.com
+    $allowed = ['princez27.github.io', 'princez27'];//input all allowed urls here e.g. amirsanni.com, www.practa.ng, smartagapp.com
 
-    $config['base_url'] = in_array($host, $allowed) ? $protocol.$host."/mini-inventory-and-sales-management-system/" : "http://".$_SERVER['HTTP_HOST']."/";
+    $config['base_url'] = in_array($host, $allowed) ? $protocol.$host."/princez27/" : "http://".$_SERVER['HTTP_HOST']."/";
 }
 
 /*
