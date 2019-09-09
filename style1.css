@@ -1,0 +1,174 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #efefef;
+	font-size:16px;
+	color: #777;
+	font-weight:300;
+	font-family: sans-serif;
+	background: url(motivational-wallpaper-5.jpg);
+	background-size: cover;
+	background-position: centre;
+}
+
+#login-box{
+	margin: 5% auto;
+	position: absolute;
+	top: 170px;
+	left:130px;
+	height: 400px;
+	width: 600px;
+	background: rgba(0,0,0,0.5);
+}
+
+.left-box
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	box-sizing: border-box;
+	padding: 40px;
+	width: 300px;
+	height: 400px;
+	color: #fff;
+}
+
+h1
+{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size:26;
+}
+
+input[type="text"], input[type="password"]
+{
+        border: none;
+        border-bottom: 1px solid #fff;
+        background: transparent;
+        outline: none;
+        height: 40px;
+        color: #fff;
+		font-size: 16px;
+}
+
+input[type="submit"]
+{
+	height: 32px;
+	background: #1c8adb;
+	border: none;
+	outline:none;
+	color: #fff;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	cursor: pointer;
+	border-radius: 20px;
+	position: absolute;
+	left: 74px;
+	top: 320px;
+	width: 120px;
+	height: 32px;	
+}
+
+input[type="submit"]:hover, input[type="submit"]:focus
+{
+        cursor: pointer;
+        background: #ff5572;
+		color: #000;
+	
+}
+
+.right-box
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	box-sizing: border-box;
+	padding: 40px;
+	width: 300px;
+	height: 400px;
+
+}
+
+.or
+{
+	position: absolute;
+	top: 180px;
+	left: 268px;
+	width: 40px;
+	height: 40px;
+	background: #efefef;
+	border-radius: 50%;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+	line-height: 40px;
+	text-align: center;
+}
+
+
+.right-box .signinwith
+{
+	display: block;
+	margin-bottom: 40px;
+	font-size: 28px;
+	color: #fff;
+	text-align: center;
+	text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+.fa-facebook {
+  color: #3b5998;
+}
+
+.fa-twitter {
+  color: #00aced;
+}
+
+.fa-google-plus-g {
+  color: #dd4b39;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-google-plus-g:hover {
+  color: #d5d5d5;
+}
+
+.facebook
+{
+	background: #32508e;
+}
+
+
+.twitter
+{
+	background: #55acee;
+}
+
+
+.google
+{
+	background: #dd4b39;
+}
+
+.right-box a{
+    text-decoration: none;
+    font-size: 14px;
+	color: #efefef;
+	position: absolute;
+	top: 352px;
+	left: 240px;
+	width:250px;
+}
+
+.right-box a:hover
+{
+	
+	color: #39dc79;
+}
+
+
+
+
+
+
+

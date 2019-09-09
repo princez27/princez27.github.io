@@ -1,0 +1,95 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(motivational-wallpaper-5.jpg);
+	background-size: cover;
+	background-position: centre;
+	font-family: sans-serif;
+}
+
+.Login-Box{
+	width: 360px;
+	height: 450px;
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+	top: 55%;
+	left: 29%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+
+.images{
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	position: absolute;
+	top: -80px;
+	left: 122px;
+	
+}
+
+h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size:26;
+}
+
+.Login-Box p{
+        margin: 0;
+        padding: 0;
+	font-weight: bold;
+}
+
+.Login-Box input{
+        width: 100%;
+	margin-bottom: 20px;
+}
+
+.Login-Box input[type="text"], input[type="password"]
+{
+        border: none;
+        border-bottom: 1px solid #fff;
+        background: transparent;
+        outline: none;
+        height: 40px;
+        color: #fff;
+	font-size: 16px;
+}
+
+.Login-Box input[type="submit"]
+{
+        border: none;
+        outline: none;
+        height: 40px;
+        background: #1c8adb;
+        color: #fff;
+        font-size: 18px;
+	border-radius: 20px;
+	text-transform: uppercase;
+}
+
+.Login-Box input[type="submit"]:hover
+{
+        cursor: pointer;
+        background: #39dc79;
+	color: #000;
+}
+
+.Login-Box a{
+        text-decoration: none;
+        font-size: 14px;
+	color: #fff;
+	position: absolute;
+	top:350px;
+	left:132px;
+}
+
+.Login-Box a:hover
+{
+	
+	color: #39dc79;
+}
+
